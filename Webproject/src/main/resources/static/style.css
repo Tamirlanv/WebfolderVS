@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.LogoWeb{
+    width: 110px;
+    height: 45px;
+}
+
+.conteiner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 20px;
+}
+
+.header .conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav{
+    margin-left: auto;
+    margin-right: 50px;
+}
+.header__list {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.header__list a{
+    text-decoration: none;
+}
+
+.btn__headerdownload{
+    text-decoration: none;
+    border: 1px solid;
+    border-color: white;
+    padding: 5px;
+
+}
+
+
+@media (max-width: 700px){
+    .LogoWeb{
+        width: 70px;
+        height: 30px;
+    }
+
+
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    background: linear-gradient(to right, #007D00, #01DF01);
+    border-radius: 5px;
+}
+
+.btn a{
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wrapper{
+    max-width: 580px;
+    max-height: 130px;
+}
+
+.wrapper p{
+    opacity: 0.7;
+    font-size: 15px;
+}
+.maintitle{
+    position: relative;
+}
+
+.title{
+    font-size: 48px;
+}
+
+.maintitle a{
+    text-decoration: underline;
+    color: #01DF01;
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+}
+
+.maintitle img{
+    position: absolute;
+    bottom: 6px;
+    left: 330px;
+    height: 40px;
+    width: 40px;
+}
